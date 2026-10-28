@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: "Cormorant Garamond", Palatino, Georgia, serif;
+
+  --color-ink: #070b14;
+  --color-panel: #121826;
+  --color-cream: #f6f7f9;
+  --color-cream-2: #1a2130;
+  --color-mist: #b7c0ce;
+  --color-inksoft: #8b95a8;
+  --color-gold: #f5c400;
+  --color-goldink: #f5c400;
+  --color-line: #243044;
+  --color-plate: #f0c43a;
+  --color-plate-ink: #1c1408;
+
+  --radius-card: 0.25rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-ink);
+    color: var(--color-cream);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button,
+  a.inline-flex {
+    border-radius: 0.625rem;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+  }
+
+  .frame-portrait {
+    aspect-ratio: 3 / 4;
+  }
+
+  .frame-tall {
+    aspect-ratio: 4 / 5;
+  }
+
+  .hero-photo {
+    object-fit: cover;
+    object-position: center 68%;
+  }
+
+  @media (min-width: 768px) {
+    .hero-photo {
+      object-position: center 42%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.output/
+.vercel/
+.netlify/
+.nitro/
+.tanstack/
+screenshots/
+attachments/
+artifacts/
+*.log
+.DS_Store
+.project_id
+.node_modules.lock
+.grok/*
+!.grok/app-env.json
