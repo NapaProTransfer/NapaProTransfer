@@ -98,6 +98,11 @@ const ui = {
     galleryKicker: "Gallery",
     galleryTitle: "Photos",
     photo: "Fleet photo",
+    videoTitle: "See the fleet",
+    videoLead: "Mercedes taxis, luggage space and child seats.",
+    legalKicker: "Official taxi",
+    legalTitle: "Travel safe, travel legal",
+    legalBody: "We are a licensed taxi. Look for the taxi sign on the roof and the yellow plates.",
     rateTitle: "Rate NapaPro Transfers on Google",
     rateBody: "Your feedback helps other travellers find a reliable transfer in Cyprus.",
     rateCta: "Leave a 5-star review",
@@ -154,6 +159,11 @@ const ui = {
     galleryKicker: "Γκαλερί",
     galleryTitle: "Φωτογραφίες",
     photo: "Φωτογραφία στόλου",
+    videoTitle: "Δείτε τον στόλο",
+    videoLead: "Mercedes, χώρος αποσκευών και παιδικά καθίσματα.",
+    legalKicker: "Επίσημο ταξί",
+    legalTitle: "Ταξιδέψτε με ασφάλεια, νόμιμα",
+    legalBody: "Είμαστε αδειοδοτημένο ταξί. Ψάξτε το σήμα TAXI στην οροφή και τις κίτρινες πινακίδες.",
     rateTitle: "Βαθμολόγησε το NapaPro στο Google",
     rateBody: "Η γνώμη σου βοηθάει άλλους να βρουν αξιόπιστη μεταφορά στην Κύπρο.",
     rateCta: "Κριτική 5 αστέρων",
@@ -210,6 +220,11 @@ const ui = {
     galleryKicker: "Galeria",
     galleryTitle: "Zdjęcia",
     photo: "Zdjęcie floty",
+    videoTitle: "Zobacz flotę",
+    videoLead: "Mercedesy, miejsce na bagaż i foteliki.",
+    legalKicker: "Oficjalna taksówka",
+    legalTitle: "Podróżuj bezpiecznie i legalnie",
+    legalBody: "Jesteśmy licencjonowaną taksówką. Szukaj znaku TAXI na dachu i żółtych tablic.",
     rateTitle: "Oceń NapaPro Transfers w Google",
     rateBody: "Twoja opinia pomaga innym znaleźć pewny transfer na Cyprze.",
     rateCta: "Zostaw opinię 5 gwiazdek",
@@ -266,6 +281,11 @@ const ui = {
     galleryKicker: "Galerie",
     galleryTitle: "Photos",
     photo: "Photo de la flotte",
+    videoTitle: "Voir la flotte",
+    videoLead: "Mercedes, espace bagages et sièges enfants.",
+    legalKicker: "Taxi officiel",
+    legalTitle: "Voyagez en sécurité, voyagez légal",
+    legalBody: "Nous sommes un taxi agréé. Cherchez le signe TAXI sur le toit et les plaques jaunes.",
     rateTitle: "Notez NapaPro Transfers sur Google",
     rateBody: "Votre avis aide d'autres voyageurs à trouver un transfert fiable à Chypre.",
     rateCta: "Laisser un avis 5 étoiles",
@@ -322,6 +342,11 @@ const ui = {
     galleryKicker: "גלריה",
     galleryTitle: "תמונות",
     photo: "תמונת צי",
+    videoTitle: "ראו את הצי",
+    videoLead: "מרצדס, מקום למזוודות וכיסאות בטיחות.",
+    legalKicker: "מונית רשמית",
+    legalTitle: "סעו בטוח, סעו חוקי",
+    legalBody: "אנחנו מונית מורשית. חפשו שלט TAXI על הגג ולוחיות צהובות.",
     rateTitle: "דרגו את NapaPro Transfers בגוגל",
     rateBody: "המשוב שלכם עוזר לנוסעים אחרים למצוא הסעה אמינה בקפריסין.",
     rateCta: "ביקורת 5 כוכבים",
@@ -378,6 +403,11 @@ const ui = {
     galleryKicker: "Galerie",
     galleryTitle: "Fotos",
     photo: "Flottenfoto",
+    videoTitle: "Die Flotte ansehen",
+    videoLead: "Mercedes, Gepäckraum und Kindersitze.",
+    legalKicker: "Offizielles Taxi",
+    legalTitle: "Sicher und legal unterwegs",
+    legalBody: "Wir sind ein lizenziertes Taxi. Achten Sie auf das TAXI-Schild und die gelben Kennzeichen.",
     rateTitle: "NapaPro Transfers bei Google bewerten",
     rateBody: "Ihre Bewertung hilft anderen, einen zuverlässigen Transfer auf Zypern zu finden.",
     rateCta: "5-Sterne-Bewertung",
@@ -421,7 +451,7 @@ export function Site() {
   const [bags, setBags] = useState(0);
   const [flight, setFlight] = useState("");
   const [seats, setSeats] = useState(0);
-  const [shot, setShot] = useState<number | null>(null);
+  const [shot, setShot] = useState<number | "legal" | null>(null);
   const [google, setGoogle] = useState<GoogleRating | null>(null);
   const [mapSrc, setMapSrc] = useState("");
   const t = ui[lang];
@@ -702,7 +732,18 @@ export function Site() {
         <section id="fleet" className="border-t border-line">
           <div className="mx-auto max-w-5xl px-4 py-14">
             <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-gold">{t.fleetKicker}</p>
-            <h2 className="mt-2 text-center text-3xl font-semibold md:text-4xl">{t.fleetTitle}</h2>
+            <h2 className="mt-2 text-center text-3xl font-semibold md:text-4xl">{t.videoTitle}</h2>
+            <p className="mx-auto mt-3 max-w-md text-center text-sm text-mist">{t.videoLead}</p>
+            <video
+              className="mx-auto mt-8 aspect-[9/16] w-full max-w-sm rounded-3xl bg-black object-cover"
+              controls
+              playsInline
+              preload="metadata"
+              poster="/fleet/havana.jpg"
+            >
+              <source src="/fleet/promo.mp4" type="video/mp4" />
+            </video>
+            <h2 className="mt-14 text-center text-3xl font-semibold md:text-4xl">{t.fleetTitle}</h2>
             <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
               {photos.map((src, i) => (
                 <button
@@ -716,6 +757,19 @@ export function Site() {
                 </button>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section id="official" className="border-t border-line">
+          <div className="mx-auto grid max-w-5xl items-center gap-8 px-4 py-14 md:grid-cols-[1fr_280px]">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">{t.legalKicker}</p>
+              <h2 className="mt-2 text-3xl font-semibold md:text-4xl">{t.legalTitle}</h2>
+              <p className="mt-4 max-w-lg text-sm leading-relaxed text-mist">{t.legalBody}</p>
+            </div>
+            <button type="button" className="overflow-hidden rounded-2xl" onClick={() => setShot("legal")} aria-label={t.enlarge}>
+              <img src="/fleet/official-taxi.jpg" alt={t.legalTitle} className="w-full object-cover" />
+            </button>
           </div>
         </section>
 
@@ -775,7 +829,12 @@ export function Site() {
           <button type="button" className="absolute right-4 top-4 h-11 rounded-lg border border-line px-4 text-sm" onClick={() => setShot(null)}>
             {t.close}
           </button>
-          <img src={photos[shot]} alt={t.photo} className="max-h-[85svh] max-w-full object-contain" onClick={(e) => e.stopPropagation()} />
+          <img
+            src={shot === "legal" ? "/fleet/official-taxi.jpg" : photos[shot]}
+            alt={shot === "legal" ? t.legalTitle : t.photo}
+            className="max-h-[85svh] max-w-full object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
         </div>
       ) : null}
     </div>
