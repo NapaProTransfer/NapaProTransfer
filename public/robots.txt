@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://napaprotransfer.com/sitemap.xml

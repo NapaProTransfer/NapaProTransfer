@@ -91,9 +91,9 @@ export type Copy = {
 
 export const copy: Record<Lang, Copy> = {
   en: {
-    metaTitle: "NapaPro Transfers — Ayia Napa, Protaras & Airports",
+    metaTitle: "Taxi Ayia Napa & Protaras Transfers | Larnaca Airport",
     metaDesc:
-      "Mercedes transfers from Ayia Napa and Protaras. Larnaca Airport to Ayia Napa from €63. WhatsApp +357 99963259.",
+      "Private airport transfers in Cyprus. Taxi Ayia Napa and Protaras transfers, including Larnaca Airport to Ayia Napa. Mercedes fleet. Book on WhatsApp.",
     navFleet: "Fleet",
     navServices: "Services",
     navWhy: "Why us",

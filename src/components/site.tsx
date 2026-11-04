@@ -60,7 +60,8 @@ const ui = {
     pill: "Famagusta Region  |  24/7 Service",
     titleA: "Premium Transfers in",
     titleB: "Ayia Napa, Protaras & Airports",
-    lead: "Professional transfers with a luxury Mercedes fleet. Immediate pickup from Larnaca & Paphos Airports with fixed rates and zero hidden fees.",
+    lead: "Taxi Ayia Napa and Protaras transfers with a luxury Mercedes fleet. Private airport transfers in Cyprus, including Larnaca Airport to Ayia Napa.",
+    routes: "Taxi Ayia Napa · Protaras transfers · Larnaca Airport to Ayia Napa · Private airport transfers Cyprus",
     chipSeat: "Free child seats",
     chipFlight: "Flight monitoring",
     chipPay: "Card or cash",
@@ -113,7 +114,9 @@ const ui = {
     quoteHead: "NapaPro Transfers booking",
     enlarge: "Enlarge photo",
     close: "Close",
-    metaTitle: "NapaPro Transfers — Ayia Napa, Protaras & Airports",
+    metaTitle: "Taxi Ayia Napa & Protaras Transfers | Larnaca Airport",
+    metaDesc:
+      "Private airport transfers in Cyprus. Taxi Ayia Napa and Protaras transfers, including Larnaca Airport to Ayia Napa. Mercedes fleet. Book on WhatsApp.",
   },
   el: {
     skip: "Μετάβαση στο περιεχόμενο",
@@ -121,7 +124,8 @@ const ui = {
     pill: "Επαρχία Αμμοχώστου  |  24/7",
     titleA: "Premium μεταφορές σε",
     titleB: "Αγία Νάπα, Πρωταρά & αεροδρόμια",
-    lead: "Επαγγελματικές μεταφορές με στόλο Mercedes. Άμεση παραλαβή από Λάρνακα και Πάφο, με σταθερή τιμή και χωρίς κρυφές χρεώσεις.",
+    lead: "Ταξί Αγία Νάπα και μεταφορές Πρωταρά με στόλο Mercedes. Ιδιωτικές μεταφορές αεροδρομίου στην Κύπρο, και από Λάρνακα προς Αγία Νάπα.",
+    routes: "Ταξί Αγία Νάπα · Μεταφορές Πρωταρά · Αεροδρόμιο Λάρνακας προς Αγία Νάπα",
     chipSeat: "Δωρεάν παιδικά καθίσματα",
     chipFlight: "Παρακολούθηση πτήσης",
     chipPay: "Κάρτα ή μετρητά",
@@ -175,6 +179,7 @@ const ui = {
     enlarge: "Μεγέθυνση",
     close: "Κλείσιμο",
     metaTitle: "NapaPro Transfers — Αγία Νάπα, Πρωταράς & αεροδρόμια",
+    metaDesc: "Ταξί Αγία Νάπα και μεταφορές Πρωταρά. Ιδιωτική μεταφορά από το αεροδρόμιο Λάρνακας προς Αγία Νάπα. Στόλος Mercedes. Κράτηση στο WhatsApp.",
   },
   pl: {
     skip: "Przejdź do treści",
@@ -183,6 +188,7 @@ const ui = {
     titleA: "Prywatne transfery w",
     titleB: "Ayia Napa, Protaras i na lotniska",
     lead: "Profesjonalne transfery flotą Mercedes. Odbiór z lotnisk Larnaka i Pafos, stała cena, bez ukrytych opłat.",
+    routes: "Taxi Ayia Napa · Transfery Protaras · Lotnisko Larnaka do Ayia Napa",
     chipSeat: "Foteliki dla dzieci",
     chipFlight: "Monitoring lotu",
     chipPay: "Karta lub gotówka",
@@ -236,6 +242,7 @@ const ui = {
     enlarge: "Powiększ",
     close: "Zamknij",
     metaTitle: "NapaPro Transfers — Ayia Napa, Protaras i lotniska",
+    metaDesc: "Taxi Ayia Napa i transfery Protaras. Prywatny transfer z lotniska Larnaka do Ayia Napa. Flota Mercedes. Rezerwacja WhatsApp.",
   },
   fr: {
     skip: "Aller au contenu",
@@ -244,6 +251,7 @@ const ui = {
     titleA: "Transferts privés à",
     titleB: "Ayia Napa, Protaras et aéroports",
     lead: "Transferts professionnels avec une flotte Mercedes. Prise en charge depuis Larnaca et Paphos, prix fixe, sans frais cachés.",
+    routes: "Taxi Ayia Napa · Transferts Protaras · Aéroport de Larnaca vers Ayia Napa",
     chipSeat: "Sièges enfants",
     chipFlight: "Suivi de vol",
     chipPay: "Carte ou espèces",
@@ -297,6 +305,7 @@ const ui = {
     enlarge: "Agrandir",
     close: "Fermer",
     metaTitle: "NapaPro Transfers — Ayia Napa, Protaras et aéroports",
+    metaDesc: "Taxi Ayia Napa et transferts Protaras. Transfert privé de l'aéroport de Larnaca vers Ayia Napa. Flotte Mercedes. Réservation WhatsApp.",
   },
   he: {
     skip: "דלג לתוכן",
@@ -305,6 +314,7 @@ const ui = {
     titleA: "הסעות פרטיות ב",
     titleB: "איה נאפה, פרוטארס ושדות תעופה",
     lead: "הסעות מקצועיות עם צי מרצדס. איסוף מלרנקה ומפאפוס, מחיר קבוע, בלי עמלות נסתרות.",
+    routes: "מונית איה נאפה · הסעות פרוטארס · משדה התעופה לרנקה לאיה נאפה",
     chipSeat: "מושבי תינוק",
     chipFlight: "מעקב טיסה",
     chipPay: "כרטיס או מזומן",
@@ -358,6 +368,7 @@ const ui = {
     enlarge: "הגדלה",
     close: "סגירה",
     metaTitle: "NapaPro Transfers — איה נאפה, פרוטארס ושדות תעופה",
+    metaDesc: "מונית באיה נאפה והסעות לפרוטארס. הסעה פרטית משדה התעופה לרנקה לאיה נאפה. צי מרצדס. הזמנה ב-WhatsApp.",
   },
   de: {
     skip: "Zum Inhalt",
@@ -366,6 +377,7 @@ const ui = {
     titleA: "Private Transfers in",
     titleB: "Ayia Napa, Protaras & Flughäfen",
     lead: "Professionelle Transfers mit Mercedes-Flotte. Abholung von Larnaca und Paphos, Festpreis, keine versteckten Kosten.",
+    routes: "Taxi Ayia Napa · Protaras Transfers · Flughafen Larnaca nach Ayia Napa",
     chipSeat: "Kindersitze",
     chipFlight: "Flugüberwachung",
     chipPay: "Karte oder bar",
@@ -419,6 +431,7 @@ const ui = {
     enlarge: "Vergrößern",
     close: "Schließen",
     metaTitle: "NapaPro Transfers — Ayia Napa, Protaras & Flughäfen",
+    metaDesc: "Taxi Ayia Napa und Protaras Transfers. Privater Transfer vom Flughafen Larnaca nach Ayia Napa. Mercedes-Flotte. Buchung per WhatsApp.",
   },
 } as const;
 
@@ -433,6 +446,17 @@ const reviewLine: Record<Lang, (n: number) => string> = {
 
 function waLink(text: string) {
   return `${WA_BASE}?text=${encodeURIComponent(text)}`;
+}
+
+function openWhatsApp(text: string) {
+  const url = waLink(text);
+  const mobile = window.matchMedia("(pointer: coarse)").matches;
+  if (mobile) {
+    window.location.assign(url);
+    return;
+  }
+  const opened = window.open(url, "_blank", "noopener,noreferrer");
+  if (!opened) window.location.assign(url);
 }
 
 function isLang(value: string | null): value is Lang {
@@ -479,7 +503,8 @@ export function Site() {
     document.documentElement.lang = lang === "he" ? "he" : lang;
     document.documentElement.dir = lang === "he" ? "rtl" : "ltr";
     document.title = t.metaTitle;
-  }, [lang, t.metaTitle]);
+    document.querySelector('meta[name="description"]')?.setAttribute("content", t.metaDesc);
+  }, [lang, t.metaTitle, t.metaDesc]);
 
   useEffect(() => {
     const from = pickup.trim();
@@ -514,21 +539,21 @@ export function Site() {
   }
 
   const message = [
-    t.quoteHead,
-    `${t.name}: ${name.trim()}`,
-    `${t.pickup}: ${pickup.trim()}`,
-    `${t.drop}: ${dest.trim()}`,
-    `${t.when}: ${whenDate}`,
-    `${t.timeLabel}: ${whenTime}`,
-    `${t.pax}: ${pax}`,
-    `${t.bags}: ${bags}`,
-    `${t.pay}: ${pay === "card" ? t.card : t.cash}`,
-    `${t.flight}: ${flight.trim() || "—"}`,
-    `${t.seats}: ${seats}`,
+    "NapaPro Transfers booking",
+    `Name: ${name.trim()}`,
+    `Pickup: ${pickup.trim()}`,
+    `Destination: ${dest.trim()}`,
+    `Date: ${whenDate}`,
+    `Time: ${whenTime}`,
+    `Passengers: ${pax}`,
+    `Luggage: ${bags}`,
+    `Baby seats: ${seats}`,
+    `Flight: ${flight.trim() || "-"}`,
+    `Payment: ${pay === "card" ? "Card" : "Cash"}`,
   ].join("\n");
 
   const field =
-    "mt-1 w-full min-w-0 rounded-xl border border-line bg-ink px-3 py-3 text-sm font-normal normal-case tracking-normal text-cream outline-none [color-scheme:dark] placeholder:text-inksoft";
+    "mt-1 w-full min-w-0 rounded-xl border border-line bg-ink px-3 py-3 text-base font-normal normal-case tracking-normal text-cream outline-none [color-scheme:dark] placeholder:text-inksoft";
 
   return (
     <div className="min-h-svh bg-ink text-cream" dir={lang === "he" ? "rtl" : "ltr"}>
@@ -571,7 +596,18 @@ export function Site() {
       </header>
 
       <main id="main">
-        <section id="top" className="mx-auto grid max-w-5xl gap-8 px-4 py-8 md:grid-cols-2 md:items-start md:py-14">
+        <section id="top" className="mx-auto max-w-5xl px-4 py-6 md:py-10">
+          <figure className="overflow-hidden rounded-3xl border border-line">
+            <img
+              src="/fleet/seaside.jpg"
+              alt="Mercedes taxi Ayia Napa and Protaras, private airport transfers in Cyprus"
+              width="1600"
+              height="1067"
+              fetchPriority="high"
+              className="aspect-[4/3] w-full object-cover object-[32%_center] md:aspect-[21/9]"
+            />
+          </figure>
+          <div className="mt-8 grid gap-8 md:grid-cols-2 md:items-start">
           <div className="min-w-0">
             <p className="inline-flex items-center gap-2 rounded-full border border-line bg-panel px-3 py-1.5 text-xs text-mist">
               <MapPin className="size-3.5 text-gold" aria-hidden="true" />
@@ -581,6 +617,7 @@ export function Site() {
               {t.titleA} <span className="text-gold">{t.titleB}</span>
             </h1>
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-mist md:text-base">{t.lead}</p>
+            <p className="mt-3 max-w-xl text-sm font-medium leading-relaxed text-cream">{t.routes}</p>
             <ul className="mt-5 flex flex-wrap gap-2 text-sm">
               <li className="inline-flex items-center gap-2 rounded-xl border border-line bg-panel px-3 py-2">
                 <Baby className="size-4 text-gold" aria-hidden="true" />
@@ -617,10 +654,17 @@ export function Site() {
 
           <form
             id="fare"
-            className="min-w-0 scroll-mt-24 rounded-3xl border border-line bg-panel p-5"
+            className="min-w-0 scroll-mt-24 rounded-3xl border border-line bg-panel p-4 sm:p-5"
             onSubmit={(e) => {
               e.preventDefault();
-              window.open(waLink(message), "_blank", "noopener,noreferrer");
+              const form = e.currentTarget;
+              if (!form.checkValidity()) {
+                form.reportValidity();
+                const bad = form.querySelector(":invalid");
+                if (bad instanceof HTMLElement) bad.scrollIntoView({ block: "center", behavior: "smooth" });
+                return;
+              }
+              openWhatsApp(message);
             }}
           >
             <h2 className="text-lg font-semibold">{t.calcKicker}</h2>
@@ -633,7 +677,15 @@ export function Site() {
               <p className="text-[11px] font-medium uppercase tracking-widest text-gold">{t.trip}</p>
               <label className="mt-3 block text-[11px] font-medium uppercase tracking-widest text-mist">
                 {t.pickup}
-                <input className={field} required value={pickup} placeholder={t.pickupPh} onChange={(e) => setPickup(e.target.value)} />
+                <input
+                  className={field}
+                  required
+                  autoComplete="off"
+                  enterKeyHint="next"
+                  value={pickup}
+                  placeholder={t.pickupPh}
+                  onChange={(e) => setPickup(e.target.value)}
+                />
               </label>
               <button
                 type="button"
@@ -645,9 +697,17 @@ export function Site() {
               </button>
               <label className="mt-3 block text-[11px] font-medium uppercase tracking-widest text-mist">
                 {t.drop}
-                <input className={field} required value={dest} placeholder={t.dropPh} onChange={(e) => setDest(e.target.value)} />
+                <input
+                  className={field}
+                  required
+                  autoComplete="off"
+                  enterKeyHint="next"
+                  value={dest}
+                  placeholder={t.dropPh}
+                  onChange={(e) => setDest(e.target.value)}
+                />
               </label>
-              <div className="mt-3 grid grid-cols-2 gap-3">
+              <div className="mt-3 grid grid-cols-1 gap-3 min-[420px]:grid-cols-2">
                 <label className="block text-[11px] font-medium uppercase tracking-widest text-mist">
                   {t.when}
                   <input className={field} required type="date" value={whenDate} onChange={(e) => setWhenDate(e.target.value)} />
@@ -677,7 +737,7 @@ export function Site() {
             </div>
             <label className="mt-4 block text-[11px] font-medium uppercase tracking-widest text-mist">
               {t.name}
-              <input className={field} required value={name} placeholder={t.namePh} onChange={(e) => setName(e.target.value)} />
+              <input className={field} required autoComplete="name" enterKeyHint="next" value={name} placeholder={t.namePh} onChange={(e) => setName(e.target.value)} />
             </label>
             <div className="mt-3 grid grid-cols-2 gap-3">
               <Counter label={t.pax} value={pax} onChange={(dir) => bump("pax", dir)} />
@@ -705,11 +765,12 @@ export function Site() {
               ))}
             </div>
             <p className="mt-3 text-xs leading-relaxed text-inksoft">{t.priceAsk}</p>
-            <button type="submit" className="mt-4 inline-flex h-12 w-full items-center justify-center gap-2 bg-gold text-sm font-semibold text-ink">
+            <button type="submit" className="mt-4 inline-flex h-12 w-full items-center justify-center gap-2 bg-gold text-base font-semibold text-ink">
               <MessageCircle className="size-4" aria-hidden="true" />
               {t.bookBig}
             </button>
           </form>
+          </div>
         </section>
 
         <section id="why" className="border-t border-line">
@@ -837,6 +898,28 @@ export function Site() {
           />
         </div>
       ) : null}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TaxiService",
+            name: "NapaPro Transfers",
+            url: "https://napaprotransfer.com/",
+            image: "https://napaprotransfer.com/fleet/seaside.jpg",
+            telephone: "+35799963259",
+            areaServed: ["Ayia Napa", "Protaras", "Larnaca Airport", "Paphos Airport", "Cyprus"],
+            description:
+              "Taxi Ayia Napa and Protaras transfers. Private airport transfers in Cyprus, including Larnaca Airport to Ayia Napa.",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Ayia Napa",
+              addressRegion: "Famagusta",
+              addressCountry: "CY",
+            },
+          }),
+        }}
+      />
     </div>
   );
 }
