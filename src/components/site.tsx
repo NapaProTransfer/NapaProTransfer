@@ -984,14 +984,18 @@ export function Site() {
       <section id="faq" className="border-t border-line">
         <div className="mx-auto max-w-3xl px-4 py-14">
           <h2 className="text-center text-3xl font-semibold">{t.faqTitle}</h2>
-          <dl className="mt-8 space-y-4">
+          <div className="mt-8 space-y-3">
             {t.faq.map((item) => (
-              <div key={item.q} className="rounded-3xl border border-line bg-panel p-5">
-                <dt className="text-base font-semibold">{item.q}</dt>
-                <dd className="mt-2 text-sm leading-relaxed text-mist">{item.a}</dd>
-              </div>
+              <details key={item.q} className="group rounded-3xl border border-line bg-panel">
+                <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 p-5 text-base font-semibold [&::-webkit-details-marker]:hidden">
+                  <span>{item.q}</span>
+                  <Plus className="size-5 shrink-0 text-gold group-open:hidden" aria-hidden="true" />
+                  <Minus className="hidden size-5 shrink-0 text-gold group-open:block" aria-hidden="true" />
+                </summary>
+                <p className="px-5 pb-5 text-sm leading-relaxed text-mist">{item.a}</p>
+              </details>
             ))}
-          </dl>
+          </div>
         </div>
       </section>
 
