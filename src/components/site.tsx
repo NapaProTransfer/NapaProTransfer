@@ -107,6 +107,25 @@ const ui = {
     rateTitle: "Rate NapaPro Transfers on Google",
     rateBody: "Your feedback helps other travellers find a reliable transfer in Cyprus.",
     rateCta: "Leave a 5-star review",
+    faqTitle: "Questions",
+    faq: [
+      {
+        q: "How much does a private taxi from Larnaca Airport to Ayia Napa or Protaras cost?",
+        a: "With NapaProTransfer, pre-booked private transfers start from €63 for a Standard taxi, €70 for a VIP transfer, and €100 for a Mercedes V-Class.",
+      },
+      {
+        q: "How can I book a transfer with NapaProTransfer?",
+        a: "You can book directly via WhatsApp or phone at +357 99963259, or via email at costastaxiservice@gmail.com. Pre-booked transfers operate 24/7.",
+      },
+      {
+        q: "What payment methods are accepted?",
+        a: "NapaProTransfer accepts both cash and card payments.",
+      },
+      {
+        q: "Do you offer transfers to Paphos Airport and long-distance destinations in Cyprus?",
+        a: "Yes, NapaProTransfer specializes in pre-booked private transfers between Ayia Napa, Protaras, Larnaca Airport (LCA), Paphos Airport (PFO), and long-distance intercity routes across Cyprus.",
+      },
+    ],
     footName: "NapaPro Transfers",
     footBase: "Base: Famagusta Region (Ayia Napa, Protaras, Liopetri, Paralimni). Larnaca & Paphos Airport transfers 24/7.",
     footPhone: "Phone & WhatsApp:",
@@ -171,6 +190,25 @@ const ui = {
     rateTitle: "Βαθμολόγησε το NapaPro στο Google",
     rateBody: "Η γνώμη σου βοηθάει άλλους να βρουν αξιόπιστη μεταφορά στην Κύπρο.",
     rateCta: "Κριτική 5 αστέρων",
+    faqTitle: "Συχνές ερωτήσεις",
+    faq: [
+      {
+        q: "Πόσο κοστίζει ιδιωτικό ταξί από το αεροδρόμιο Λάρνακας προς Αγία Νάπα ή Πρωταρά;",
+        a: "Με το NapaProTransfer, οι προκρατημένες ιδιωτικές μεταφορές ξεκινούν από €63 για Standard ταξί, €70 για VIP και €100 για Mercedes V-Class.",
+      },
+      {
+        q: "Πώς κλείνω μεταφορά με το NapaProTransfer;",
+        a: "Απευθείας μέσω WhatsApp ή τηλεφώνου στο +357 99963259, ή με email στο costastaxiservice@gmail.com. Οι προκρατημένες μεταφορές λειτουργούν 24/7.",
+      },
+      {
+        q: "Ποιοι τρόποι πληρωμής γίνονται δεκτοί;",
+        a: "Το NapaProTransfer δέχεται μετρητά και κάρτα.",
+      },
+      {
+        q: "Κάνετε μεταφορές προς το αεροδρόμιο Πάφου και μεγάλες αποστάσεις στην Κύπρο;",
+        a: "Ναι. Κάνουμε προκρατημένες ιδιωτικές μεταφορές μεταξύ Αγίας Νάπας, Πρωταρά, αεροδρομίου Λάρνακας (LCA), αεροδρομίου Πάφου (PFO) και υπεραστικών διαδρομών σε όλη την Κύπρο.",
+      },
+    ],
     footName: "NapaPro Transfers",
     footBase: "Βάση: Επαρχία Αμμοχώστου (Αγία Νάπα, Πρωταράς, Λιοπέτρι, Παραλίμνι). Αεροδρόμια Λάρνακας & Πάφου, 24/7.",
     footPhone: "Τηλέφωνο & WhatsApp:",
@@ -234,6 +272,25 @@ const ui = {
     rateTitle: "Oceń NapaPro Transfers w Google",
     rateBody: "Twoja opinia pomaga innym znaleźć pewny transfer na Cyprze.",
     rateCta: "Zostaw opinię 5 gwiazdek",
+    faqTitle: "Pytania",
+    faq: [
+      {
+        q: "Ile kosztuje prywatna taksówka z lotniska Larnaka do Ayia Napa lub Protaras?",
+        a: "W NapaProTransfer wcześniejsze prywatne transfery zaczynają się od 63 € za taksówkę Standard, 70 € za VIP i 100 € za Mercedes V-Class.",
+      },
+      {
+        q: "Jak zarezerwować transfer z NapaProTransfer?",
+        a: "Bezpośrednio przez WhatsApp lub telefon +357 99963259, albo e-mail costastaxiservice@gmail.com. Wcześniejsze transfery działają 24/7.",
+      },
+      {
+        q: "Jakie płatności są akceptowane?",
+        a: "NapaProTransfer przyjmuje gotówkę i kartę.",
+      },
+      {
+        q: "Czy robicie transfery na lotnisko Pafos i dalekie trasy na Cyprze?",
+        a: "Tak. Specjalizujemy się we wcześniejszych prywatnych transferach między Ayia Napa, Protaras, lotniskiem Larnaka (LCA), lotniskiem Pafos (PFO) i trasami międzymiastowymi na Cyprze.",
+      },
+    ],
     footName: "NapaPro Transfers",
     footBase: "Baza: region Famagusta (Ayia Napa, Protaras, Liopetri, Paralimni). Transfery z lotnisk Larnaka i Pafos, 24/7.",
     footPhone: "Telefon i WhatsApp:",
@@ -297,6 +354,25 @@ const ui = {
     rateTitle: "Notez NapaPro Transfers sur Google",
     rateBody: "Votre avis aide d'autres voyageurs à trouver un transfert fiable à Chypre.",
     rateCta: "Laisser un avis 5 étoiles",
+    faqTitle: "Questions",
+    faq: [
+      {
+        q: "Quel est le prix d'un taxi privé de l'aéroport de Larnaca vers Ayia Napa ou Protaras ?",
+        a: "Chez NapaProTransfer, les transferts privés réservés à l'avance commencent à 63 € en taxi Standard, 70 € en VIP et 100 € en Mercedes V-Class.",
+      },
+      {
+        q: "Comment réserver un transfert avec NapaProTransfer ?",
+        a: "Directement par WhatsApp ou téléphone au +357 99963259, ou par e-mail à costastaxiservice@gmail.com. Les transferts réservés fonctionnent 24h/24.",
+      },
+      {
+        q: "Quels moyens de paiement acceptez-vous ?",
+        a: "NapaProTransfer accepte les espèces et la carte.",
+      },
+      {
+        q: "Proposez-vous l'aéroport de Paphos et les longues distances à Chypre ?",
+        a: "Oui. Nous faisons des transferts privés réservés entre Ayia Napa, Protaras, l'aéroport de Larnaca (LCA), l'aéroport de Paphos (PFO) et les trajets interurbains à Chypre.",
+      },
+    ],
     footName: "NapaPro Transfers",
     footBase: "Base : région de Famagouste (Ayia Napa, Protaras, Liopetri, Paralimni). Aéroports Larnaca et Paphos, 24/7.",
     footPhone: "Téléphone et WhatsApp :",
@@ -360,6 +436,25 @@ const ui = {
     rateTitle: "דרגו את NapaPro Transfers בגוגל",
     rateBody: "המשוב שלכם עוזר לנוסעים אחרים למצוא הסעה אמינה בקפריסין.",
     rateCta: "ביקורת 5 כוכבים",
+    faqTitle: "שאלות",
+    faq: [
+      {
+        q: "כמה עולה מונית פרטית משדה התעופה לרנקה לאיה נאפה או לפרוטארס?",
+        a: "ב-NapaProTransfer הסעות פרטיות בהזמנה מראש מתחילות מ-63€ למונית סטנדרט, 70€ ל-VIP ו-100€ למרצדס V-Class.",
+      },
+      {
+        q: "איך מזמינים הסעה ב-NapaProTransfer?",
+        a: "ישירות ב-WhatsApp או בטלפון +357 99963259, או במייל costastaxiservice@gmail.com. הסעות בהזמנה מראש פועלות 24/7.",
+      },
+      {
+        q: "אילו אמצעי תשלום מתקבלים?",
+        a: "NapaProTransfer מקבל מזומן וכרטיס.",
+      },
+      {
+        q: "האם יש הסעות לשדה התעופה פאפוס וליעדים רחוקים בקפריסין?",
+        a: "כן. אנחנו מתמחים בהסעות פרטיות בהזמנה מראש בין איה נאפה, פרוטארס, שדה התעופה לרנקה (LCA), שדה התעופה פאפוס (PFO) ונסיעות בין-עירוניות בכל קפריסין.",
+      },
+    ],
     footName: "NapaPro Transfers",
     footBase: "בסיס: מחוז פמגוסטה (איה נאפה, פרוטארס, ליופטרי, פרלימני). הסעות מלרנקה ומפאפוס, 24/7.",
     footPhone: "טלפון ו-WhatsApp:",
@@ -423,6 +518,25 @@ const ui = {
     rateTitle: "NapaPro Transfers bei Google bewerten",
     rateBody: "Ihre Bewertung hilft anderen, einen zuverlässigen Transfer auf Zypern zu finden.",
     rateCta: "5-Sterne-Bewertung",
+    faqTitle: "Fragen",
+    faq: [
+      {
+        q: "Was kostet ein privates Taxi vom Flughafen Larnaca nach Ayia Napa oder Protaras?",
+        a: "Bei NapaProTransfer beginnen vorgebuchte Privattransfers ab 63 € für ein Standard-Taxi, 70 € für VIP und 100 € für eine Mercedes V-Class.",
+      },
+      {
+        q: "Wie buche ich einen Transfer bei NapaProTransfer?",
+        a: "Direkt per WhatsApp oder Telefon unter +357 99963259, oder per E-Mail an costastaxiservice@gmail.com. Vorgebuchte Transfers laufen rund um die Uhr.",
+      },
+      {
+        q: "Welche Zahlungsarten werden akzeptiert?",
+        a: "NapaProTransfer akzeptiert Barzahlung und Karte.",
+      },
+      {
+        q: "Gibt es Transfers zum Flughafen Paphos und Langstrecken auf Zypern?",
+        a: "Ja. Wir sind auf vorgebuchte Privattransfers zwischen Ayia Napa, Protaras, Flughafen Larnaca (LCA), Flughafen Paphos (PFO) und Fernstrecken auf Zypern spezialisiert.",
+      },
+    ],
     footName: "NapaPro Transfers",
     footBase: "Basis: Region Famagusta (Ayia Napa, Protaras, Liopetri, Paralimni). Flughäfen Larnaca & Paphos, 24/7.",
     footPhone: "Telefon & WhatsApp:",
@@ -867,6 +981,20 @@ export function Site() {
         </section>
       </main>
 
+      <section id="faq" className="border-t border-line">
+        <div className="mx-auto max-w-3xl px-4 py-14">
+          <h2 className="text-center text-3xl font-semibold">{t.faqTitle}</h2>
+          <dl className="mt-8 space-y-4">
+            {t.faq.map((item) => (
+              <div key={item.q} className="rounded-3xl border border-line bg-panel p-5">
+                <dt className="text-base font-semibold">{item.q}</dt>
+                <dd className="mt-2 text-sm leading-relaxed text-mist">{item.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
       <footer className="border-t border-line px-4 py-10 text-center">
         <p className="text-sm font-semibold tracking-[0.18em]">{t.footName}</p>
         <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-mist">{t.footBase}</p>
@@ -903,20 +1031,121 @@ export function Site() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "TaxiService",
-            name: "NapaPro Transfers",
-            url: "https://napaprotransfer.com/",
-            image: "https://napaprotransfer.com/fleet/seaside.jpg",
-            telephone: "+35799963259",
-            areaServed: ["Ayia Napa", "Protaras", "Larnaca Airport", "Paphos Airport", "Cyprus"],
-            description:
-              "Taxi Ayia Napa and Protaras transfers. Private airport transfers in Cyprus, including Larnaca Airport to Ayia Napa.",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Ayia Napa",
-              addressRegion: "Famagusta",
-              addressCountry: "CY",
-            },
+            "@graph": [
+              {
+                "@type": "TaxiService",
+                "@id": "https://napaprotransfer.com/#business",
+                name: "NapaProTransfer",
+                url: "https://napaprotransfer.com",
+                telephone: "+35799963259",
+                email: "costastaxiservice@gmail.com",
+                priceRange: "€63 - €100+",
+                currenciesAccepted: "EUR",
+                paymentAccepted: "Cash, Credit Card",
+                image: "https://napaprotransfer.com/fleet/seaside.jpg",
+                description:
+                  "Private taxi and pre-booked 24/7 airport transfer service in Ayia Napa and Protaras, Cyprus. Transfers to and from Larnaca Airport (LCA) and Paphos Airport (PFO) with Standard, VIP, and Mercedes V-Class options.",
+                areaServed: [
+                  { "@type": "City", name: "Ayia Napa" },
+                  { "@type": "City", name: "Protaras" },
+                  { "@type": "Airport", name: "Larnaca International Airport", iataCode: "LCA" },
+                  { "@type": "Airport", name: "Paphos International Airport", iataCode: "PFO" },
+                ],
+                address: {
+                  "@type": "PostalAddress",
+                  addressLocality: "Ayia Napa",
+                  addressRegion: "Famagusta District",
+                  addressCountry: "CY",
+                },
+                openingHoursSpecification: [
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                    opens: "00:00",
+                    closes: "23:59",
+                    description: "24/7 operation for pre-booked transfers",
+                  },
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                    opens: "09:00",
+                    closes: "11:30",
+                    description: "Direct phone booking hours (WhatsApp available 24/7)",
+                  },
+                ],
+                hasOfferCatalog: {
+                  "@type": "OfferCatalog",
+                  name: "Private Transfer Services",
+                  itemListElement: [
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "Standard Private Taxi Transfer",
+                        description: "Reliable private transfer to/from Larnaca Airport, Ayia Napa, and Protaras.",
+                      },
+                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "63" },
+                    },
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "VIP Private Transfer",
+                        description: "Executive comfortable private transfer service in Cyprus.",
+                      },
+                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "70" },
+                    },
+                    {
+                      "@type": "Offer",
+                      itemOffered: {
+                        "@type": "Service",
+                        name: "Mercedes V-Class Minivan Transfer",
+                        description: "Spacious luxury minivan transfer for families and groups.",
+                      },
+                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "100" },
+                    },
+                  ],
+                },
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://napaprotransfer.com/#faq",
+                mainEntity: [
+                  {
+                    "@type": "Question",
+                    name: "How much does a private taxi from Larnaca Airport to Ayia Napa or Protaras cost?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "With NapaProTransfer, pre-booked private transfers start from €63 for a Standard taxi, €70 for a VIP transfer, and €100 for a Mercedes V-Class.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "How can I book a transfer with NapaProTransfer?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "You can book directly via WhatsApp or phone at +357 99963259, or via email at costastaxiservice@gmail.com. Pre-booked transfers operate 24/7.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "What payment methods are accepted?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "NapaProTransfer accepts both cash and card payments.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "Do you offer transfers to Paphos Airport and long-distance destinations in Cyprus?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Yes, NapaProTransfer specializes in pre-booked private transfers between Ayia Napa, Protaras, Larnaca Airport (LCA), Paphos Airport (PFO), and long-distance intercity routes across Cyprus.",
+                    },
+                  },
+                ],
+              },
+            ],
           }),
         }}
       />
