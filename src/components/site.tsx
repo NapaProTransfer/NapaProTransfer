@@ -111,7 +111,7 @@ const ui = {
     faq: [
       {
         q: "How much does a private taxi from Larnaca Airport to Ayia Napa or Protaras cost?",
-        a: "With NapaProTransfer, pre-booked private transfers start from €63 for a Standard taxi, €70 for a VIP transfer, and €100 for a Mercedes V-Class.",
+        a: "With NapaProTransfer, pre-booked private transfers are €63–€75 for a Standard taxi, €80–€100 for a Big taxi, and €90–€130 for a Mercedes V-Class.",
       },
       {
         q: "How can I book a transfer with NapaProTransfer?",
@@ -194,7 +194,7 @@ const ui = {
     faq: [
       {
         q: "Πόσο κοστίζει ιδιωτικό ταξί από το αεροδρόμιο Λάρνακας προς Αγία Νάπα ή Πρωταρά;",
-        a: "Με το NapaProTransfer, οι προκρατημένες ιδιωτικές μεταφορές ξεκινούν από €63 για Standard ταξί, €70 για VIP και €100 για Mercedes V-Class.",
+        a: "Με το NapaProTransfer, οι προκρατημένες ιδιωτικές μεταφορές είναι €63–€75 για Standard ταξί, €80–€100 για Big taxi και €90–€130 για Mercedes V-Class.",
       },
       {
         q: "Πώς κλείνω μεταφορά με το NapaProTransfer;",
@@ -276,7 +276,7 @@ const ui = {
     faq: [
       {
         q: "Ile kosztuje prywatna taksówka z lotniska Larnaka do Ayia Napa lub Protaras?",
-        a: "W NapaProTransfer wcześniejsze prywatne transfery zaczynają się od 63 € za taksówkę Standard, 70 € za VIP i 100 € za Mercedes V-Class.",
+        a: "W NapaProTransfer wcześniejsze prywatne transfery kosztują 63–75 € za taksówkę Standard, 80–100 € za Big taxi i 90–130 € za Mercedes V-Class.",
       },
       {
         q: "Jak zarezerwować transfer z NapaProTransfer?",
@@ -358,7 +358,7 @@ const ui = {
     faq: [
       {
         q: "Quel est le prix d'un taxi privé de l'aéroport de Larnaca vers Ayia Napa ou Protaras ?",
-        a: "Chez NapaProTransfer, les transferts privés réservés à l'avance commencent à 63 € en taxi Standard, 70 € en VIP et 100 € en Mercedes V-Class.",
+        a: "Chez NapaProTransfer, les transferts privés réservés à l'avance sont de 63–75 € en taxi Standard, 80–100 € en Big taxi et 90–130 € en Mercedes V-Class.",
       },
       {
         q: "Comment réserver un transfert avec NapaProTransfer ?",
@@ -440,7 +440,7 @@ const ui = {
     faq: [
       {
         q: "כמה עולה מונית פרטית משדה התעופה לרנקה לאיה נאפה או לפרוטארס?",
-        a: "ב-NapaProTransfer הסעות פרטיות בהזמנה מראש מתחילות מ-63€ למונית סטנדרט, 70€ ל-VIP ו-100€ למרצדס V-Class.",
+        a: "ב-NapaProTransfer הסעות פרטיות בהזמנה מראש הן 63–75€ למונית סטנדרט, 80–100€ ל-Big taxi ו-90–130€ למרצדס V-Class.",
       },
       {
         q: "איך מזמינים הסעה ב-NapaProTransfer?",
@@ -522,7 +522,7 @@ const ui = {
     faq: [
       {
         q: "Was kostet ein privates Taxi vom Flughafen Larnaca nach Ayia Napa oder Protaras?",
-        a: "Bei NapaProTransfer beginnen vorgebuchte Privattransfers ab 63 € für ein Standard-Taxi, 70 € für VIP und 100 € für eine Mercedes V-Class.",
+        a: "Bei NapaProTransfer kosten vorgebuchte Privattransfers 63–75 € für ein Standard-Taxi, 80–100 € für ein Big Taxi und 90–130 € für eine Mercedes V-Class.",
       },
       {
         q: "Wie buche ich einen Transfer bei NapaProTransfer?",
@@ -1039,12 +1039,12 @@ export function Site() {
                 url: "https://napaprotransfer.com",
                 telephone: "+35799963259",
                 email: "costastaxiservice@gmail.com",
-                priceRange: "€63 - €100+",
+                priceRange: "€63 - €130",
                 currenciesAccepted: "EUR",
                 paymentAccepted: "Cash, Credit Card",
                 image: "https://napaprotransfer.com/fleet/seaside.jpg",
                 description:
-                  "Private taxi and pre-booked 24/7 airport transfer service in Ayia Napa and Protaras, Cyprus. Transfers to and from Larnaca Airport (LCA) and Paphos Airport (PFO) with Standard, VIP, and Mercedes V-Class options.",
+                  "Private taxi and pre-booked 24/7 airport transfer service in Ayia Napa and Protaras, Cyprus. Transfers to and from Larnaca Airport (LCA) and Paphos Airport (PFO) with Standard, Big taxi, and Mercedes V-Class options.",
                 areaServed: [
                   { "@type": "City", name: "Ayia Napa" },
                   { "@type": "City", name: "Protaras" },
@@ -1084,16 +1084,16 @@ export function Site() {
                         name: "Standard Private Taxi Transfer",
                         description: "Reliable private transfer to/from Larnaca Airport, Ayia Napa, and Protaras.",
                       },
-                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "63" },
+                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "63", maxPrice: "75" },
                     },
                     {
                       "@type": "Offer",
                       itemOffered: {
                         "@type": "Service",
-                        name: "VIP Private Transfer",
-                        description: "Executive comfortable private transfer service in Cyprus.",
+                        name: "Big Taxi Transfer",
+                        description: "Larger private taxi for more passengers and luggage.",
                       },
-                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "70" },
+                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "80", maxPrice: "100" },
                     },
                     {
                       "@type": "Offer",
@@ -1102,7 +1102,7 @@ export function Site() {
                         name: "Mercedes V-Class Minivan Transfer",
                         description: "Spacious luxury minivan transfer for families and groups.",
                       },
-                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "100" },
+                      priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", minPrice: "90", maxPrice: "130" },
                     },
                   ],
                 },
@@ -1116,7 +1116,7 @@ export function Site() {
                     name: "How much does a private taxi from Larnaca Airport to Ayia Napa or Protaras cost?",
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: "With NapaProTransfer, pre-booked private transfers start from €63 for a Standard taxi, €70 for a VIP transfer, and €100 for a Mercedes V-Class.",
+                      text: "With NapaProTransfer, pre-booked private transfers are €63–€75 for a Standard taxi, €80–€100 for a Big taxi, and €90–€130 for a Mercedes V-Class.",
                     },
                   },
                   {
