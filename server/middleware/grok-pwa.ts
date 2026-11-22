@@ -37,6 +37,9 @@ function requestHost(event: GrokPwaEvent): string {
 }
 
 function injectHeadStreaming(response: Response, host: string): Response {
+  if (host.toLowerCase().includes("napaprotransfer.com")) {
+    process.env.VITE_GROK_EXTENSIONS = "0";
+  }
   const injector = createHeadInjector({
     host,
     site: grokOgIdentity.site,

@@ -1,6 +1,7 @@
 import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
+import { SEO_SCHEMA_JSON } from "@/seo-schema";
 import appCss from "../styles.css?url";
 
 const APP_NAME = "NapaProTransfer";
@@ -38,6 +39,7 @@ export const Route = createRootRoute({
     <html lang="en" className="antialiased" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: SEO_SCHEMA_JSON }} />
       </head>
       <body>
         <PreviewHostBridge />
